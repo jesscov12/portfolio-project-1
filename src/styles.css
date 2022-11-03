@@ -2,6 +2,7 @@
   background-color: black;
   color: white;
   text-align: center;
+  margin-top: 40px;
 }
 
 h1 {
@@ -11,14 +12,20 @@ h1 {
   color: aquamarine;
 }
 h2 {
-  font-size: 26px;
+  font-size: 28px;
+  font-family: "Luckiest Guy", cursive;
+  padding-top: 38px;
 }
 h3 {
   font-size: 16px;
+  font-family: "News Cycle", sans-serif;
+  line-height: 1.5;
+  padding: 20px 80px;
 }
 .btn-connect {
   padding: 12px;
   margin: 26px;
+  font-family: "Luckiest Guy", cursive;
 }
 .icons {
   text-align: center;
