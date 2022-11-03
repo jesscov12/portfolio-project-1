@@ -1,10 +1,26 @@
-body {
+.intro {
   background-color: black;
   color: white;
+  text-align: center;
 }
+
 h1 {
   font-size: 89px;
   font-family: "Monoton", cursive;
   text-align: center;
   color: aquamarine;
+}
+h2 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 16px;
+}
+.btn-connect {
+  padding: 12px;
+  margin: 26px;
+}
+.icons {
+  text-align: center;
+  font-size: 24px;
 }
