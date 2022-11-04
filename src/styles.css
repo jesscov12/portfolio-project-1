@@ -2,6 +2,7 @@
   --accent-font-family: "Monoton", cursive;
   --paragrapgh-font-family: "News Cycle", sans-serif;
   --secondary-font: "Luckiest Guy", cursive;
+  --primary-color: aquamarine;
 }
 
 .intro {
@@ -13,18 +14,18 @@
 
 h1 {
   font-size: 89px;
-  font-family: var(--accent-font-family)
+  font-family: var(--accent-font-family);
   text-align: center;
   color: aquamarine;
 }
 h2 {
   font-size: 28px;
-  font-family: var(--secondary-font)
+  font-family: var(--secondary-font);
   padding-top: 38px;
 }
 h3 {
   font-size: 16px;
-  font-family: var(--paragrapgh-font-family)
+  font-family: var(--paragrapgh-font-family);
   line-height: 1.5;
   padding: 20px 80px;
 }
@@ -32,6 +33,10 @@ h3 {
   padding: 12px;
   margin: 26px;
   font-family: "Luckiest Guy", cursive;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  border: 3px dotted var(--primary-color);
 }
 .icons {
   text-align: center;
