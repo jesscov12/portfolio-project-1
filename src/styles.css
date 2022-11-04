@@ -10,6 +10,7 @@
   color: white;
   text-align: center;
   margin-top: 40px;
+  padding: 0 50px;
 }
 
 h1 {
@@ -53,4 +54,16 @@ h3 {
 }
 .fa-brands {
   color: black;
+}
+.portfolio-projects {
+  text-decoration: underline;
+  margin: 0 15px;
+}
+.homepage {
+  margin: 0 30px;
+}
+.yogurt-text,
+.weather-text,
+.dictionary-text {
+  margin-top: 200px;
 }
