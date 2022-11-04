@@ -5,7 +5,7 @@
   --primary-color: aquamarine;
 }
 
-.intro {
+.intro-layout {
   background-color: black;
   color: white;
   text-align: center;
@@ -27,7 +27,7 @@ h3 {
   font-size: 16px;
   font-family: var(--paragrapgh-font-family);
   line-height: 1.5;
-  padding: 20px 80px;
+  padding: 20px 140px;
 }
 .btn-connect {
   padding: 12px;
@@ -38,7 +38,19 @@ h3 {
   background-color: black;
   border: 3px dotted var(--primary-color);
 }
+.btn-connect:hover {
+  border: 5px dotted white;
+  color: var(--primary-color);
+  border-radius: 8px;
+  text-decoration: underline;
+  background-color: black;
+  transition: all;
+}
+
 .icons {
   text-align: center;
   font-size: 24px;
+}
+.fa-brands {
+  color: black;
 }
