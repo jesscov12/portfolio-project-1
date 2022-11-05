@@ -28,14 +28,20 @@ h2 {
 h3 {
   font-size: 16px;
   font-family: var(--paragrapgh-font-family);
-  line-height: 1.5;
-  padding: 20px 140px;
+  line-height: 2;
+  padding: 70px 140px 20px 140px;
 }
 p {
   font-family: var(--paragrapgh-font-family);
   line-height: 2;
   font-size: 16px;
 }
+img {
+  border: 1px solid rgba(156, 155, 155, 0.3);
+  border-radius: 30px;
+  box-shadow: 5px 6px 8px rgba(93, 93, 93, 0.2);
+}
+
 .btn-connect {
   padding: 12px;
   margin: 26px;
@@ -79,6 +85,7 @@ p {
 .portfolio-projects {
   text-decoration: underline;
   margin: 0 15px;
+  font-size: 40px;
 }
 .homepage {
   margin: 0 30px;
@@ -86,9 +93,21 @@ p {
 .project-description {
   padding: 120px 40px;
 }
-@media (max-width: 992px) {
+@media (max-width: 900px) {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .intro-layout {
+    padding: 0;
+  }
+  h3 {
+    padding: 40px 10px 10px 10px;
+  }
+  .portfolio-projects {
+    font-size: 32px;
   }
 }
