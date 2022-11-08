@@ -21,7 +21,7 @@ h1 {
   color: aquamarine;
 }
 h2 {
-  font-size: 28px;
+  font-size: 42px;
   font-family: var(--secondary-font);
   padding-top: 38px;
 }
@@ -80,12 +80,16 @@ img {
   font-size: 24px;
 }
 .fa-brands {
-  color: black;
+  background-color: black;
+  color: var(--primary-color);
+  border: 8px solid black;
+  margin-bottom: 30px;
+  border-radius: 50px;
 }
 .portfolio-projects {
   text-decoration: underline;
   margin: 0 15px;
-  font-size: 40px;
+  font-size: 55px;
 }
 .homepage {
   margin: 0 30px;
@@ -93,6 +97,7 @@ img {
 .project-description {
   padding: 120px 40px;
 }
+
 @media (max-width: 992px) {
   .project-description {
     padding: 0;
@@ -100,6 +105,9 @@ img {
   }
   h1 {
     font-size: 45px;
+  }
+  h2 {
+    font-size: 32px;
   }
   .intro-layout {
     padding: 0;
