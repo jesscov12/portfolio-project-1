@@ -104,9 +104,9 @@ p {
 .about-me-heading {
   text-decoration: underline;
   font-size: 55px;
-  background-color: #fbf2d5;
   padding: 21px;
-  border-top: 1.5px solid black;
+  border-top: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
 }
 
 .about-me-paragraph {
@@ -129,7 +129,7 @@ p {
 .work-inquiry {
   margin: 90px 60px 0px 60px;
   background-color: rgb(251, 242, 213, 0.3);
-  padding-inline: 80px;
+  padding-inline: 100px;
 }
 
 @media (max-width: 992px) {
