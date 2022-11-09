@@ -96,9 +96,10 @@ p {
 .portfolio-projects,
 .about-me-heading {
   text-decoration: underline;
-  margin: 0 15px;
   font-size: 55px;
+  background-color: #fbf2d5;
 }
+
 .about-me-paragraph {
   margin: 40px 60px 20px 60px;
   background-color: rgb(127, 169, 155);
@@ -109,7 +110,7 @@ p {
 }
 
 .homepage {
-  margin: 0 30px;
+  margin: 0 80px;
   background-color: rgb(251, 242, 213, 0.2);
 }
 .project-description {
@@ -128,7 +129,7 @@ p {
     font-size: 32px;
   }
   .intro-layout {
-    padding: 0;
+    padding: 20px 10px;
     margin: 0;
   }
   h3 {
@@ -137,12 +138,13 @@ p {
   .portfolio-projects,
   .about-me-heading {
     font-size: 35px;
+    margin: 0;
   }
   .bio-pic {
     max-width: 250px;
   }
   .about-me-paragraph {
     padding: 5px;
-    margin: 20px;
+    margin: 10px;
   }
 }
