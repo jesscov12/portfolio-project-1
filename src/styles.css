@@ -129,11 +129,20 @@ p {
   }
   .intro-layout {
     padding: 0;
+    margin: 0;
   }
   h3 {
     padding: 40px 10px 10px 10px;
   }
-  .portfolio-projects {
-    font-size: 32px;
+  .portfolio-projects,
+  .about-me-heading {
+    font-size: 35px;
+  }
+  .bio-pic {
+    max-width: 250px;
+  }
+  .about-me-paragraph {
+    padding: 5px;
+    margin: 20px;
   }
 }
