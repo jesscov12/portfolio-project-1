@@ -19,6 +19,12 @@ h1 {
   font-family: var(--accent-font-family);
   text-align: center;
   color: aquamarine;
+  letter-spacing: 2px;
+}
+.contact-me-heading {
+  margin-top: 100px;
+  background-color: black;
+  letter-spacing: 4px;
 }
 h2 {
   font-size: 42px;
@@ -99,10 +105,12 @@ p {
   text-decoration: underline;
   font-size: 55px;
   background-color: #fbf2d5;
+  padding: 21px;
+  border-top: 1.5px solid black;
 }
 
 .about-me-paragraph {
-  margin: 40px 60px 20px 60px;
+  margin: 40px 80px 20px 80px;
   background-color: rgb(127, 169, 155);
   padding: 16px 20px;
   color: #fbf2d5;
