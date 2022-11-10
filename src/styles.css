@@ -141,12 +141,8 @@ p {
 }
 
 @media (max-width: 992px) {
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
   h1 {
-    font-size: 45px;
+    font-size: 43px;
   }
   h2 {
     font-size: 32px;
@@ -157,6 +153,11 @@ p {
   }
   h3 {
     padding: 40px 10px 10px 10px;
+    font-size: 15px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
   }
   .portfolio-projects,
   .about-me-heading {
@@ -167,7 +168,15 @@ p {
     max-width: 250px;
   }
   .about-me-paragraph {
-    padding: 5px;
-    margin: 10px;
+    margin: 5px;
+  }
+  .homepage,
+  .about-container {
+    margin: 5px;
+    padding: 10px;
+  }
+  .work-inquiry {
+    margin: 0;
+    padding: 10px;
   }
 }
