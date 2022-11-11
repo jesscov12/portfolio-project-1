@@ -42,6 +42,10 @@ p {
   line-height: 2;
   font-size: 18px;
 }
+.navbar-brand {
+  font-family: "Kristi", cursive;
+  font-size: 38px;
+}
 .yogurt,
 .weather,
 .dictionary {
