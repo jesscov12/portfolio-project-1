@@ -42,9 +42,13 @@ p {
   line-height: 2;
   font-size: 18px;
 }
+.navbar {
+  padding-bottom: 0px;
+}
 .navbar-brand {
   font-family: "Kristi", cursive;
   font-size: 38px;
+  padding-left: 24px;
 }
 .yogurt,
 .weather,
@@ -182,5 +186,8 @@ p {
   .work-inquiry {
     margin: 0;
     padding: 10px;
+  }
+  .navbar {
+    margin: 0;
   }
 }
