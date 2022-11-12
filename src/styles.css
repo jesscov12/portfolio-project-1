@@ -165,7 +165,7 @@ p {
   }
   .intro-layout {
     padding: 20px 10px;
-    margin: 0;
+    margin: 10px 0;
   }
   h3 {
     padding: 40px 10px 10px 10px;
@@ -197,5 +197,15 @@ p {
   }
   .navbar {
     margin: 0;
+  }
+  .text-start {
+    padding-left: 10px;
+  }
+  .work-inquiry-btn {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .col-4 {
+    text-align: right;
   }
 }
