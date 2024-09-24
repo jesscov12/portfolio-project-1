@@ -29,7 +29,7 @@ h1 {
 h2 {
   font-size: 42px;
   font-family: var(--secondary-font);
-  padding-top: 38px;
+  margin: 10px;
 }
 h3 {
   font-size: 18px;
@@ -42,6 +42,11 @@ p {
   line-height: 2;
   font-size: 18px;
 }
+.lets-create {
+  font-size: 18px;
+  font-family: var(--paragrapgh-font-family);
+}
+
 .navbar {
   padding-bottom: 0px;
 }
@@ -54,7 +59,7 @@ p {
 .weather,
 .dictionary {
   border: 1px solid rgba(156, 155, 155, 0.3);
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 5px 6px 8px rgba(125, 124, 124, 0.2);
 }
 
@@ -67,7 +72,7 @@ p {
 
 .btn-connect {
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   font-family: "Luckiest Guy", cursive;
   border-radius: 8px;
   color: white;
